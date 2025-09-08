@@ -1,4 +1,4 @@
-module platform_common
+module github.com/M1steryO/platform_common
 
 go 1.24
 
