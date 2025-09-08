@@ -2,8 +2,8 @@ package pg
 
 import (
 	"context"
-	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/M1steryO/platform_common/pkg/db"
+	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 type pgClient struct {
