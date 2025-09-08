@@ -1,8 +1,8 @@
 package sys
 
 import (
+	"github.com/M1steryO/platform_common/pkg/sys/codes"
 	"github.com/pkg/errors"
-	"platform_common/pkg/sys/codes"
 )
 
 type commonError struct {

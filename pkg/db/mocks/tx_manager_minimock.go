@@ -6,7 +6,7 @@ package mocks
 
 import (
 	"context"
-	mm_db "platform_common/pkg/db"
+	mm_db "github.com/M1steryO/platform_common/pkg/db"
 	"sync"
 	mm_atomic "sync/atomic"
 	mm_time "time"

@@ -3,13 +3,13 @@ package pg
 import (
 	"context"
 	"fmt"
+	"github.com/M1steryO/platform_common/pkg/db"
+	"github.com/M1steryO/platform_common/pkg/db/prettier"
 	"github.com/georgysavva/scany/pgxscan"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"log"
-	"platform_common/pkg/db"
-	"platform_common/pkg/db/prettier"
 )
 
 type key string

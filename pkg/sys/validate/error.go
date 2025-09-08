@@ -2,7 +2,6 @@ package validate
 
 import (
 	"encoding/json"
-
 	"github.com/pkg/errors"
 )
 
